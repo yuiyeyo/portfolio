@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 300vh;
+  width: 100%;
+}
+
+.profile-div,
+.works-div,
+.projects-div {
+  width:100%;
+  height: 100vh;
+    background-color: #f0f0f0;
+    transition: opacity 0.5s ease;
+}
+
+.profile-div
+{
+  background-color: #E11444;
+}
+
+
+
+.name
+{
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  font-size: 70px;
+  font-weight: bold;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(145deg, #292929, #191919); /* Adjust color stops as needed */
+  text-shadow: -5 5 5px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.name img
+{
+  width: 70%;
+}
+@media only screen and (max-width: 768px)
+{
+  .name
+  {
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .name img
+  {
+    width: 80%;
+  }
+}
+
+.bio
+{
+  padding: 3%;
+  background: #FFEDC2;
+  box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
+    border: 2px solid #212427;
+  border-radius: 8px;
+  width: 50%;
+  /*text-shadow: 2.5px 2.5px 0px rgba(33, 36, 39, 1);*/
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  top: 30%;
+  left: 40%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #212427;
+}
+
+.extras{
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .extras
+  {
+    
+    font-size: 7px;
+  }
+  .bio
+  {
+    height: 55%;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    font-size: 12px;
+  }
+}
+
+.menu
+{
+
+  padding: 3%;
+  background: #FFEDC2;
+  box-shadow: 5px 5px 0px  rgba( 33, 36, 39, 0.9 );
+    border: 2px solid #212427;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  margin-right: 3%;
+  /*text-shadow: 2.5px 2.5px 0px rgba(33, 36, 39, 1);*/
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  top: 30%;
+  left: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #212427;
+}
+
+.stickers1, .stickers2
+{
+  position: absolute; 
+  z-index: 100;
+  width: 90px;
+}
+@media only screen and (max-width: 768px)
+{
+  .stickers1, .stickers2
+  {
+    width:45px;
+  }
+}
+
+.stickers1
+{
+  left: 35%; 
+  top: 82%; 
+  transform:rotate(-10deg);
+}
+@media only screen and (max-width: 768px)
+{
+  .stickers1
+  {
+    left: 8%;
+    top: 90%;
+  }
+}
+
+.stickers2{
+  left: 80%; 
+  top:20%; 
+  transform: rotate(5deg)
+}
+@media only screen and (max-width: 768px)
+{
+  .stickers2
+  {
+    left: 85%;
+    top: 30%;
+  }
+}
+
+.stickers3
+{
+  position: absolute; 
+  top: 30%; 
+  left: 60px; 
+  transform: rotate(-2deg); 
+  width: 200px;
+}
+@media only screen and (max-width: 768px)
+{
+  .stickers3
+  {
+    left: 5%;
+    top:15%;
+    width: 100px;
+  }
+}
+
+.stickers4
+{
+  position: absolute;
+  left: 150px; 
+  top: 35%; 
+  transform: rotate(6deg); 
+  width: 150px
+}
+
+@media only screen and (max-width: 768px)
+{
+  .stickers4
+  {
+    left: 15%;
+    top: 18%;
+    width: 80px;
+  }
+}
