@@ -73,6 +73,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #212427;
+  height: 55%;
 }
 
 .extras{
@@ -121,15 +122,9 @@ body {
 {
   position: absolute; 
   z-index: 100;
-  width: 90px;
+  width: 10%;
 }
-@media only screen and (max-width: 768px)
-{
-  .stickers1, .stickers2
-  {
-    width:45px;
-  }
-}
+
 
 .stickers1
 {
@@ -166,7 +161,7 @@ body {
   top: 30%; 
   left: 60px; 
   transform: rotate(-2deg); 
-  width: 200px;
+  width: 20%;
 }
 @media only screen and (max-width: 768px)
 {
@@ -174,7 +169,6 @@ body {
   {
     left: 5%;
     top:15%;
-    width: 100px;
   }
 }
 
@@ -184,7 +178,7 @@ body {
   left: 150px; 
   top: 35%; 
   transform: rotate(6deg); 
-  width: 150px
+  width: 15%;
 }
 
 @media only screen and (max-width: 768px)
@@ -193,6 +187,5 @@ body {
   {
     left: 15%;
     top: 18%;
-    width: 80px;
   }
 }
