@@ -77,13 +77,12 @@ body {
   left: 40%;
   font-weight: bold;
   color: #212427;
-  height: auto;
-  max-height:50%;
+  height:50%;
   overflow-y: hidden;
 }
 
 .intro{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .extras{
@@ -94,7 +93,8 @@ body {
 {
   .bio
   {
-    height: 55%;
+    height: auto;
+    max-height: 55%;
     top: 35%;
     width: 70%;
     max-width: 300px;
@@ -109,7 +109,8 @@ body {
 {
   .bio
   {
-    height: 55%;
+    height: auto;
+    max-height: 55%;
     top: 35%;
     left: 15%;
     width: 70%;
