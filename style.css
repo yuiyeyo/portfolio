@@ -193,7 +193,7 @@ body {
 .stickers4
 {
   position: absolute;
-  left: 25%; 
+  left: 20%; 
   top: 38%; 
   transform: rotate(6deg); 
   width: 15%;
@@ -206,4 +206,32 @@ body {
     left: 15%;
     top: 23%;
   }
+}
+
+
+.stickersbling1
+{
+  position: absolute; 
+  left: 90%; 
+  top:20%;  
+  transform: rotate(-10deg); 
+  width: 5%;
+}
+
+.stickersbling2
+{
+  position: absolute; 
+  left: 26%; 
+  top:65%;  
+  transform: rotate(-10deg); 
+  width: 3%;
+}
+
+.stickers5
+{
+  position: absolute; 
+  left: 10%; 
+  top:70%;  
+  transform: rotate(10deg); 
+  width: 10%;
 }
