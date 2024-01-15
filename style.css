@@ -62,6 +62,7 @@ body {
 .bio
 {
   padding: 3%;
+  padding-top: 1px;
   background: #FFEDC2;
   box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
     border: 2px solid #212427;
