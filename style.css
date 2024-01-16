@@ -78,6 +78,9 @@ body {
   color: #212427;
   height:50%;
   overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro{
