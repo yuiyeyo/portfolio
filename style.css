@@ -5,6 +5,7 @@ body {
   font-family: 'Kanit', sans-serif;
   width: 100%;
   overflow-x: hidden;
+  color: #212427;
 }
 
 *
@@ -15,7 +16,7 @@ body {
 
 .profile-div,
 .works-div,
-.projects-div {
+.end-div {
   height: 100vh;
   overflow-x: hidden;
 }
@@ -302,7 +303,7 @@ body {
   position: absolute;
   padding-top: 1px;
   padding-left: 3%;
-  padding-right:3%;
+  padding-right: 3%;
   margin-left: 10%;
   margin-right: 10%;
   top:120vh;
@@ -354,4 +355,38 @@ body {
   overflow-y: scroll;
   box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
   border: 2px solid #212427;
+}
+
+
+.projects h1{
+  font-size: 50px;
+  position: absolute;
+  left:10vw;
+}
+
+.projectdesc
+{
+  text-align: left;
+  height: 100%;
+  width: 80%;
+}
+
+.projectpics
+{
+  width: 70%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+
+.end-div{
+  background-color: #212427;
+  color: #FFEDC2;
+}
+
+.end-title
+{
+  margin-left: 5%;
+  margin-top: 5vh;
+  font-size: 60px;
 }
