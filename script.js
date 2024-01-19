@@ -1,7 +1,7 @@
 
 
 let currentSection = 0;
-const sections = document.querySelectorAll('.profile-div, .works-div, .projects-div');
+const sections = document.querySelectorAll('.profile-div, .works-div, .end-div');
 
 function scrollToNextSection() {
   
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const leftArrow = document.querySelector(".leftarrow");
   const rightArrow = document.querySelector(".rightarrow");
 
-  const projectTitles = document.querySelectorAll(".projects h1");
+  const projectTitles = document.querySelectorAll(".projects .project-frame");
   const projectFrames = document.querySelectorAll(".projects .project-frame");
 
   let currentIndex = 0;
