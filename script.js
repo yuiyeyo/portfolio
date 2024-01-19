@@ -1,26 +1,4 @@
 
-
-let currentSection = 0;
-const sections = document.querySelectorAll('.profile-div, .works-div, .end-div');
-
-function scrollToNextSection() {
-  
-  currentSection = (currentSection + 1) % sections.length;
-  sections[currentSection].scrollIntoView({ behavior: 'smooth' });
-}
-
-window.addEventListener('wheel', (e) => {
-  e.preventDefault();
-  if (e.deltaY > 0) {
-    // Scrolling down
-    scrollToNextSection();
-  } else {
-    // Scrolling up
-    currentSection = (currentSection - 1 + sections.length) % sections.length;
-    sections[currentSection].scrollIntoView({ behavior: 'smooth' });
-  }
-});
-
 document.addEventListener("DOMContentLoaded", function() {
   const leftArrow = document.querySelector(".leftarrow");
   const rightArrow = document.querySelector(".rightarrow");
