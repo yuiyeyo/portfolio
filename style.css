@@ -46,7 +46,7 @@ body {
 {
   .name
   {
-
+    margin: auto;
     top: 3%;
     display: flex;
     align-content: center;
@@ -92,43 +92,33 @@ body {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 480px)
+@media only screen and (max-width: 768px)
 {
   .bio
   {
-    height: 55vh;
-    top: 35%;
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    top: 20%;
+    width: 80%;
+    left: 0%;
     max-width: 300px;
     right: 5%;
+    color: #FFEDC2;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0 );
+    border: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 0px  rgba( 33, 36, 39, 1 ); 
+    -webkit-text-stroke: 0.5px #212427;
   }
   .intro{
     height: 80%;
-    font-size: 12px;
-  }
-}
-@media only screen and (max-width: 480px)
-{
-  .bio
-  {
-    height: 55vh;
-    top: 35%;
-    left: 15%;
-    width: 70%;
-    max-width: 300px;
-  }
-  .intro{
-    height: 90%;
-    font-size: 10px;
-  }
-}
-@media only screen and (max-width: 900px) and (min-width: 768px)
-{
-  .intro{
-    height: 90%;
     font-size: 15px;
+    text-align: justify;
   }
 }
+
 
 
 
@@ -146,22 +136,15 @@ body {
   top: 75%; 
   transform:rotate(-10deg);
 }
-@media only screen and (max-width: 768px) and (min-width: 480px)
+@media only screen and (max-width: 768px)
 {
   .stickers1
   {
-    right: 80%;
-    top: 80%;
+    left: 5%;
+    top: 10vh;
   }
 }
-@media only screen and (max-width: 480px)
-{
-  .stickers1
-  {
-    left: 7%;
-    top: 80vh;
-  }
-}
+
 
 .stickers2{
   left: 80%; 
@@ -175,6 +158,7 @@ body {
     left: 85%;
     top: 30%;
   }
+ 
 }
 
 .stickers3
@@ -189,8 +173,7 @@ body {
 {
   .stickers3
   {
-    left: 5%;
-    top:20%;
+    display: none;
   }
 }
 
@@ -207,8 +190,7 @@ body {
 {
   .stickers4
   {
-    left: 15%;
-    top: 23%;
+    display: none;
   }
 }
 
@@ -239,6 +221,15 @@ body {
   transform: rotate(10deg); 
   width: 8%;
 }
+@media only screen and (max-width: 768px)
+{
+
+  .stickers5
+  {
+    left: 35%;
+    top: 85%;
+  }
+}
 
 .facesticker
 {
@@ -247,6 +238,13 @@ body {
   bottom: 5vh;
   width:15%;
   z-index: 90;
+}
+@media only screen and (max-width: 768px)
+{
+  .facesticker
+  {
+    width: 20%;
+  }
 }
 .border
 {
