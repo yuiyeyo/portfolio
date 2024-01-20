@@ -19,6 +19,7 @@ body {
 .end-div {
   height: 100vh;
   overflow-x: hidden;
+  overflow-y:hidden;
 }
 
 .profile-div
@@ -29,22 +30,14 @@ body {
 
 
 
+
 .name
 {
-  width: 90%;
   position: absolute;
-  top: 10%;
-  left: 3%;
-  font-size: 70px;
-  font-weight: bold;
-  background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(145deg, #292929, #191919); /* Adjust color stops as needed */
-  text-shadow: -5 5 5px rgba(0, 0, 0, 0.3);
-  text-align: left;
-  font-family: 'Press Start 2P', cursive;
+  margin-left: 3%;
+  top: 3%;
+  width: 80%;
 }
-
 .name img
 {
   width: 70%;
@@ -80,7 +73,7 @@ body {
   position: absolute;
   font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
-  top: 40%;
+  top: 30%;
   left: 40%;
   font-weight: bold;
   color: #212427;
@@ -103,8 +96,7 @@ body {
 {
   .bio
   {
-    height: auto;
-    max-height: 55%;
+    height: 55vh;
     top: 35%;
     width: 70%;
     max-width: 300px;
@@ -119,8 +111,7 @@ body {
 {
   .bio
   {
-    height: auto;
-    max-height: 55%;
+    height: 55vh;
     top: 35%;
     left: 15%;
     width: 70%;
@@ -145,14 +136,14 @@ body {
 {
   position: absolute; 
   z-index: 100;
-  width: 10%;
+  width: 8%;
 }
 
 
 .stickers1
 {
   left: 35%; 
-  top: 85%; 
+  top: 75%; 
   transform:rotate(-10deg);
 }
 @media only screen and (max-width: 768px) and (min-width: 480px)
@@ -167,14 +158,14 @@ body {
 {
   .stickers1
   {
-    left: 10%;
-    top: 80%;
+    left: 7%;
+    top: 80vh;
   }
 }
 
 .stickers2{
   left: 80%; 
-  top:30%; 
+  top:20%; 
   transform: rotate(5deg)
 }
 @media only screen and (max-width: 768px)
@@ -192,7 +183,7 @@ body {
   top: 30%; 
   left: 60px; 
   transform: rotate(-2deg); 
-  width: 25%;
+  width: 20%;
 }
 @media only screen and (max-width: 768px)
 {
@@ -206,10 +197,10 @@ body {
 .stickers4
 {
   position: absolute;
-  left: 20%; 
+  left: 15%; 
   top: 38%; 
   transform: rotate(6deg); 
-  width: 15%;
+  width: 10%;
 }
 
 @media only screen and (max-width: 768px)
@@ -228,7 +219,7 @@ body {
   left: 90%; 
   top:20%;  
   transform: rotate(-10deg); 
-  width: 5%;
+  width: 2%;
 }
 
 .stickersbling2
@@ -237,7 +228,7 @@ body {
   left: 26%; 
   top:65%;  
   transform: rotate(-10deg); 
-  width: 3%;
+  width: 2%;
 }
 
 .stickers5
@@ -246,9 +237,17 @@ body {
   left: 10%; 
   top:70%;  
   transform: rotate(10deg); 
-  width: 10%;
+  width: 8%;
 }
 
+.facesticker
+{
+  position: absolute;
+  right: 5%;
+  bottom: 5vh;
+  width:15%;
+  z-index: 90;
+}
 .border
 {
   padding-top: 2%;
@@ -306,7 +305,7 @@ body {
   padding-right: 3%;
   margin-left: 10%;
   margin-right: 10%;
-  top:120vh;
+  top:125vh;
   width: 80%;
   background-color: #FFEDC2;
   box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
@@ -317,11 +316,21 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
   color: #212427;
-  height:40vw;
+  height:30vw;
   overflow-y: hidden;
   display: flex;
   align-items: center;
   opacity: 0;
+}
+@media only screen and (max-width: 768px)
+{
+  .project-frame
+  {
+    left:40%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 70vh;
+  }
 }
 
 .active
@@ -337,7 +346,7 @@ body {
   object-fit: cover;
   object-position: center top;
   width:50%;
-  height: 60vh;
+  height: 55vh;
   overflow-y: scroll;
   box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
   border: 2px solid #212427;
@@ -351,7 +360,7 @@ body {
   object-fit: cover;
   object-position: center top;
   width: 25%;
-  height: 60vh;
+  height: 55vh;
   overflow-y: scroll;
   box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
   border: 2px solid #212427;
@@ -384,9 +393,41 @@ body {
   color: #FFEDC2;
 }
 
+.merakibrand
+{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  object-fit:cover;
+  object-position: center top;
+  width:60%;
+  height: 55vh;
+  overflow-y: scroll;
+  box-shadow: 13px 13px 0px  rgba( 33, 36, 39, 0.9 );
+  border: 2px solid #212427;
+}
+
 .end-title
 {
   margin-left: 5%;
   margin-top: 5vh;
   font-size: 60px;
+}
+
+.contacts
+{
+  margin-left: 5%;
+  margin-top: 5vh;
+  font-size: 40px;
+}
+
+a:link {
+  color: #FFEDC2; 
+  background-color: transparent; 
+  text-decoration:underline;
+}
+
+a:visited {
+  color: #FFEDC2;
+  background-color: transparent;
+  text-decoration: underline;
 }
