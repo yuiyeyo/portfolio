@@ -306,7 +306,7 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
   color: #212427;
-  height: 60%;
+  height: 65%;
   overflow-y: hidden;
   align-items: center;
   display:none;
@@ -320,6 +320,10 @@ body {
   }
   .project-frame
   {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+    overflow-x: auto;
     top: 60vh;
     left:40%;
     transform: translateX(-50%);
@@ -445,7 +449,12 @@ body {
 {
   margin-left: 5%;
   margin-top: 5vh;
-  font-size: 6vh;
+  font-size: 3vh;
+}
+
+.formobile
+{
+  display:none;
 }
 
 a:link {
@@ -458,4 +467,92 @@ a:visited {
   color: #FFEDC2;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.mobilever
+{
+  display: none;
+}
+
+.githubsticker, .linkedinsticker, .igsticker, .behancesticker, .fiverrsticker
+{
+  position: absolute;
+  top: 230vh;
+}
+
+.linkedinsticker{
+  left: 20vw;
+  transform: rotate(5deg);
+  width: 200px;
+  z-index: 10;
+}
+
+.igsticker{
+  left: 30vw;
+  transform: rotate(-10deg);
+  width: 300px;
+}
+
+.behancesticker
+{
+  left: 53vw;
+  transform: rotate(8deg);
+  width: 300px;
+  z-index: 10;
+}
+
+.fiverrsticker
+{
+  left: 44vw;
+  transform: rotate(-10deg);
+  width: 200px;
+}
+.githubsticker
+{
+  left: 67vw;
+  transform: rotate(10deg);
+  width: 200px;
+}
+@media only screen and (max-width: 768px)
+{
+  .mobilever
+  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .lovenderdesktop
+  {
+    display: none;
+  }
+
+  .lovendermobile
+  {
+    display: none;
+  }
+
+
+  .projects h1{
+    top: 45vh;
+    left: 15vw;
+  }
+
+  .projectdesc
+  {
+    display: none;
+  }
+
+  .merakibrand{
+    display: none;
+  }
+  .formobile{
+    display: block;
+  }
+  .fordesktop
+  {
+    display: none;
+  }
 }
