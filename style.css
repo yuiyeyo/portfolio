@@ -512,6 +512,12 @@ a:visited {
   transform: rotate(10deg);
   width: 200px;
 }
+
+iframe
+{
+  width : 60vw;
+}
+
 @media only screen and (max-width: 768px)
 {
   .mobilever
@@ -555,3 +561,5 @@ a:visited {
     display: none;
   }
 }
+
+
