@@ -316,7 +316,7 @@ body {
 {
   .works-div
   {
-    height: 130vh;
+    height: 120vh;
   }
   .project-frame
   {
@@ -328,11 +328,11 @@ body {
     left:40%;
     transform: translateX(-50%);
     width: 70%;
-    height: 80vh;
+    height: 350px;
   }
   .leftarrow, .rightarrow
   {
-    top: 100%;
+    top: 85%;
   }
 }
 
